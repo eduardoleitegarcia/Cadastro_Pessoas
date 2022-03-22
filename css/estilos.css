@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: Arial;
+
+}
+
+body {
+    background: #d8d3d3a6;
+    height: 100vh;
+
+
+}
+
+.cabecalho {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+.cabecalhoListagem {
+    background-color: rgb(130, 208, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.cabecalhoLista {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.iconeCadastro {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.tituloCadastro {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+.tituloListagem {
+    background-color: rgba(121, 207, 241, 0.897);
+    font-family: sans-serif;
+    font-size: 17pt;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+.profile {
+    width: 13%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profileListagem {
+    width: 4%;
+    margin: 5px 0 5px 0;
+}
+
+.nomeLbl {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.idadeLbl {
+    float: right;
+    margin-right: 190px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.emailLbl {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.celularLbl {
+    float: right;
+    margin-right: 178px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sexoLbl {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.nomeInput {
+    padding: 10px 0 10px 15px;
+    margin-left: 25px;
+    float: left;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgba(193, 206, 223, 0.849);
+    opacity: 50%;
+
+    font-size: 17px;
+    width: 200px;
+}
+
+.idadeInput {
+    padding: 10px 0 10px 15px;
+    margin-right: 25px;
+    float: right;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgba(193, 206, 223, 0.849);
+    opacity: 50%;
+    font-size: 17px;
+    width: 200px;
+}
+
+.emailInput {
+    padding: 10px 0 10px 15px;
+    margin-left: 25px;
+    float: left;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgba(193, 206, 223, 0.849);
+    opacity: 50%;
+
+    font-size: 17px;
+    width: 200px;
+}
+
+.celularInput {
+    padding: 10px 0 10px 15px;
+    margin-right: 25px;
+    float: right;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgba(193, 206, 223, 0.849);
+    opacity: 50%;
+
+    font-size: 17px;
+    width: 200px;
+}
+
+.masculinoRadio {
+    margin-top: 13px;
+    margin-left: 25px;
+}
+
+.masculinoLbl {
+    opacity: 50%;
+    font-size: 17px;
+}
+
+.femininoLbl {
+    opacity: 50%;
+    font-size: 17px;
+}
+
+.btnCadastro {
+    width: 180px;
+    height: 45px;
+    background: #0782bb;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 18px;
+    opacity: 70%;
+}
+
+.btnCadastro:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(46, 45, 45);
+
+}
+
+.btnNovoCadastro {
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background: rgb(73, 166, 206);
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 11pt;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.btnNovoCadastro:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(46, 45, 45);
+
+
+}
+
+.btnNovoCadastro:hover {
+    transform: scale(1.1);
+    border: 2px solid black;
+}
+
+.campo {
+    background-color: white;
+    box-shadow: 0px 3px 1px 1px rgba(49, 48, 48, 0.212);
+    border-radius: 10px;
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 550px;
+    height: 500px;
+}
+
+
+.paginaListagem {
+    background-color: white;
+    padding: 5px;
+
+
+}
+
+.campoLista {
+    background-color: white;
+    box-shadow: 0px 4px 1px 1px #9c9a9aa4;
+    border-radius: 10px;
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 550px;
+    height: 500px;
+}
+
+.botao {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBtnNovoCadastro {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.editarLink {
+    margin-top: 3px;
+    content: url(ico-editar.png);
+    width: 30px;
+}
+
+.editarLink:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(46, 45, 45);
+
+}
+
+.excluirLink {
+    margin-top: 3px;
+    margin-left: 3px;
+    content: url(ico-excluir.png);
+    width: 30px;
+
+}
+
+.excluirLink:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(46, 45, 45);
+
+}
+
+table {
+    border-color: rgba(151, 151, 151, 0.5);
+    border-spacing: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.camposDiv {
+    display: flex;
+
+}
+
+.divCampos {
+    justify-content: space-around;
+
+}
+
+.registrosPagina {
+    margin-right: 1%;
+
+}
+
+.divBusca {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+
+}
+
+#busca {
+    padding: 4px 0 4px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgba(193, 206, 223, 0.849);
+    opacity: 65%;
+    font-size: 17px;
+    width: 91%;
+}
